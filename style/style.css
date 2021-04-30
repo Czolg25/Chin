@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(61, 66, 66);
+    text-align: center;
+    font-size: 20px;
+}
+
+#register{
+    margin: auto;
+    margin-top: 300px;
+    width: 300px;
+    height: 50px;
+}
+.pawn{
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: white;
+
+    position: absolute;
+}
+.greenEnd{
+    background-color: greenyellow;
+}
+.redEnd{
+    background-color: rgb(242, 174, 176 );
+}
+.blueEnd{
+    background-color: rgb(174, 200, 242 );
+}
+.yellowEnd{
+    background-color: rgb(242, 240, 177 );
+}
+#players{
+    margin: auto;
+    margin-top: 300px;
+    width: 650px;
+    height: 50px;
+}
+#playersGame{
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    width: 650px;
+    height: 50px;
+}
+.player{
+    border-radius: 15%;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    float: left;
+    padding: 5px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+#kosc{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: aqua;
+    top: 100px;
+    left: 30px;
+}
+#move{
+    position: absolute;
+    top: 400px;
+    left: 145px;
+}
+.courent{
+    border: 7px solid saddlebrown;
+}.activeBrown{
+     border: 3px solid saddlebrown;
+ }
+img{
+    width: 100%;
+    height: 100%;
+}
